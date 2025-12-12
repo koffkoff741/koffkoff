@@ -1,0 +1,67 @@
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   /* centre verticalement */
+    align-items: center;       /* centre horizontalement */
+    min-height: 100vh;         /* occupe toute la hauteur de l'écran */
+    background-color: #fff;
+    padding: 0; /* supprime padding horizontal */
+    text-align: center; /* centre le texte */
+}
+
+.overlay2 {
+    width: 100%;               /* prend toute la largeur */
+    max-width: 900px;          /* limite largeur pour lisibilité */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 10vh;/* centre le conteneur */
+    text-align: center;        /* centre le texte à l’intérieur */
+}
+
+.Slogan2 {
+    font-size: 33px;
+    font-weight: bold;
+    margin: 0 0 20px 0;        /* supprime toute marge gauche */
+    color: #000;
+}
+
+
+.fade-in-delay2 {
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 27px;
+    line-height: 1.6;
+    color: black;
+    margin: 0 auto 40px auto;  /* centre horizontalement le paragraphe */
+    max-width: 800px;
+    text-align: center;         /* centre le texte */
+}
+
+.cta5 {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 30px 18px;
+    background: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.cta5:hover {
+    transform: translateY(-3px);
+}
+
+
+.descriptive {
+    margin-top: 12px;
+    font-size: 23px;
+    color: #444;
+}
+
+
+

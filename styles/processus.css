@@ -1,0 +1,67 @@
+
+
+.bottomText7 {
+    font-size: 32px;
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;  /* centre les cartes */
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.card {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    padding: 40px 30px;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    transition: transform 0.4s ease;
+
+}
+
+
+.overviewCards {
+    display: flex;
+    flex-wrap: wrap; /* permet de passer à la ligne si trop petit */
+    justify-content: center; /* centre les cards */
+    gap: 20px; /* espace entre les cards */
+    max-width: 1500px;
+    margin: 0 auto;
+    gap: 50px;
+}
+
+.espace {
+    margin-top: 30px;
+}
+
+
+.highlight2{
+    background-color: #e80080;
+    color: white;
+    border-radius: 15px;
+    padding: 12px;
+    font-size: 25px;
+}
+
+
+
+
+
+@media (max-width: 1130px) {
+    .bottom-text7{
+        font-size: 27px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;  /* centre les cartes */
+        gap: 40px;
+        margin-top: 30px;
+    }
+}

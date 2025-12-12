@@ -1,0 +1,159 @@
+<!--Auteur Koffi Eklou -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact – Esthévolution</title>
+  <link rel="stylesheet" href="styles/formulaire1.css">
+  <link rel="stylesheet" href="styles/style.css">
+
+</head>
+<body>
+<header>
+  <!-- 🧭 NAVBAR -->
+  <nav class="navbar">
+
+    <!-- Menu burger -->
+    <input type="checkbox" id="menuToggle" />
+    <label for="menuToggle" class="menuIcon"></label>
+
+    <!-- Liens -->
+    <div class="navi">
+      <a target="_blank" href="index.html">1. Accueil</a>
+      <a target="_blank" href="pourquoiLp.html">2. Pourquoi avoir une landing page ?</a>
+      <a target="_blank" href="processus.html">3. Processus</a>
+      <a target="_blank" href="EstheticiansNeed.html">4. Pourquoi Esthévolution ?</a>
+      <a target="_blank" href="tarifs.html">5. Tarifs</a>
+      <a target="_blank" href="faq.html">6. FAQ</a>
+      <a target="_blank" href="formulaire1.html">7. Créer votre univers</a>
+      <a target="_blank" href="mentionsLegales.html">7. Mentions légales</a>
+    </div>
+
+    <div class="logo">
+      <a href="index.html">
+        <img src="images/logo.png" alt="Esthevolution logo" title="Esthevolution logo">
+      </a>
+    </div>
+  </nav>
+</header>
+<h1 class="Slogan2"> Formulaire du Pack Premium</h1>
+<main>
+  <form class="contactFormPremium formWrapper" method="get">
+    <fieldset class="formFieldset">
+      <legend>Informations personnelles</legend>
+      <label>Nom complet</label>
+      <input type="text" name="nomComplet" placeholder="Ex : Laura Mendes" required>
+
+
+      <label>Email</label>
+      <input type="email" name="email" placeholder="Ex : laura@gmail.com" required>
+
+
+      <label>Quartier à Genève</label>
+      <select name="quartierGeneve" required>
+        <option value="">Sélectionner...</option>
+        <option>Plainpalais</option>
+        <option>Eaux-Vives</option>
+        <option>Champel</option>
+        <option>Les Pâquis</option>
+        <option>La Servette</option>
+        <option>Carouge</option>
+        <option>Saint-Jean</option>
+        <option>Acacias</option>
+        <option>Petit-Saconnex</option>
+        <option>Cornavin</option>
+      </select>
+
+
+      <label>Type d'esthéticienne</label>
+      <select name="typeEstheticienne" required>
+        <option value="">Sélectionner...</option>
+        <option>Prothésiste ongulaire</option>
+        <option>Extension de cils</option>
+        <option>Maquillage permanent</option>
+        <option>Épilations</option>
+        <option>Soin du visage</option>
+        <option>Massage bien-être</option>
+      </select>
+    </fieldset>
+
+
+    <fieldset class="fonctionnalites">
+      <legend>5 Fonctionnalités pour votre site (interchangeables avec les options ci-dessous)</legend>
+
+      <!-- 5 seules options sélectionnables -->
+      <label class="checkboxStyle">
+        <label><input type="checkbox" name="fonctionPremium"> Réservation pro</label>
+        <label><input type="checkbox" name="fonctionPremium"> Chatbot IA avancé</label>
+        <label><input type="checkbox" name="fonctionPremium"> Espace client</label>
+        <label><input type="checkbox" name="fonctionPremium" value="Blog intégré"> Blog intégré</label>
+        <label><input type="checkbox" name="fonctionPremium" value="Automations marketing"> Automations marketing</label>
+      </label>
+    </fieldset>
+    <p class="extra-title">Options supplémentaires sur demande ( facturation en plus ) :</p>
+
+
+    <ul class="extra-list">
+      <li>Optimisation SEO complète</li>
+      <li>Boutique e-commerce</li>
+    </ul>
+
+
+
+    <fieldset class="formFieldset">
+      <legend>Description / besoins</legend>
+      <textarea name="besoins" rows="10" placeholder="Nom de votre entreprise, Objectif principal de la landing page ..." required></textarea>
+    </fieldset>
+    <div class="formButtons">
+      <button type="submit" class="ctaMain">Développer votre écosystème</button>
+      <button type="reset" class="btnReset">Réinitialiser</button>
+    </div>
+  </form>
+</main>
+
+<div class="separator1"></div>
+
+<!-- SECTION BESOINS + FOOTER -->
+<section class="besoins" id="besoins">
+  <footer class="footer">
+    <div class="footer-container">
+      <!-- Colonne gauche -->
+      <div class="footer-about">
+        <h3>À propos d'Esthévolution</h3>
+        <p>Esthévolution crée des landing pages élégantes et automatisées pour les esthéticiennes à Genève, afin de booster vos réservations et offrir une expérience fluide à vos clientes.</p>
+      </div>
+
+      <!-- Colonne milieu -->
+      <div class="footer-links">
+        <h3>Liens</h3>
+        <ul>
+          <li><a target="_blank" href="index.html">Acceuil </a></li>
+          <li><a target="_blank" href="pourquoiLp.html">Pourquoi avoir une landing page ?</a></li>
+          <li><a target="_blank" href="EstheticiansNeed.html">Pourquoi nous ?</a></li>
+          <li><a target="_blank" href="processus.html">Processus</a></li>
+          <li><a target="_blank" href="faq.html">FAQ</a></li>
+          <li><a target="_blank" href="Formulaire.html">Tarifs</a></li>
+          <li><a target="_blank" href="mentions.html">Mentions légales</a></li>
+        </ul>
+      </div>
+
+      <!-- Colonne droite -->
+      <div class="footer-socials">
+        <a class="footer-facebook" target="_blank" href="https://www.facebook.com/profile.php?id=61584906356237">
+          <img src="images/facebook.png" alt="Logo Facebook">
+        </a>
+        <a target="_blank" href="https://www.instagram.com/esth.evolution/">
+          <img src="images/instagram.png" alt="Logo Instagram">
+        </a>
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="footer-copy">
+      &copy; Esthévolution @ Tous droits réservés 2025
+    </div>
+  </footer>
+</section>
+
+</body>
+</html>

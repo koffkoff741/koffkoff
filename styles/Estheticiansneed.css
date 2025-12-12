@@ -1,0 +1,65 @@
+
+.cta1 {
+    font-family: 'ABeeZee', sans-serif;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    background-color: #be94f3;
+    border-radius: 20px;
+    padding: 12px 28px;
+    transition: 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+    margin-left: 20px;
+    text-shadow: 1px 1px black;
+    width: 250px;
+}
+
+.cta1:hover {
+    background-color: #8900ff;
+    transform: scale(1.05);
+}
+
+
+.pourquoi{
+    margin-top: 20vh;
+}
+
+/* Hero / header */
+.hero1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   /* centre verticalement */
+    align-items: center;       /* centre horizontalement */
+    min-height: 100vh;         /* occupe toute la hauteur de l'écran */
+    background-color: #fff;
+    padding: 0; /* supprime padding horizontal */
+    text-align: center; /* centre le texte */
+}
+
+
+.overlay2 {
+    width: 100%;               /* prend toute la largeur */
+    max-width: 900px;          /* limite largeur pour lisibilité */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 10vh;/* centre le conteneur */
+    text-align: center;        /* centre le texte à l’intérieur */
+}
+
+
+
+
+.highlight2 {
+    color: #8900ff;
+}
+
+
+
+.transition {
+    text-align:center;
+    margin-top:10px;
+}
+
