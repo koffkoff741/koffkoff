@@ -1,0 +1,160 @@
+<!--Auteur Koffi Eklou -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Accueil - Esthévolution</title>
+    <link href="styles/style.css" rel="stylesheet">
+</head>
+<body>
+<!-- NAVBAR -->
+<nav class="navbar">
+    <a class="CTA" href="formulaire1.html">Créer votre site</a>
+    <!-- Menu burger -->
+    <input id="menuToggle" type="checkbox"/>
+    <label class="menuIcon" for="menuToggle"></label>
+    <!-- Liens -->
+    <div class="navi">
+        <a href="welcome.html">1. Accueil</a>
+        <a href="pourquoiLp.html">2. Pourquoi avoir une landing page ?</a>
+        <a href="processus.html">3. Processus</a>
+        <a href="EstheticiansNeed.html">4. Pourquoi Esthévolution ?</a>
+        <a href="Tarifs.html">5. Tarifs</a>
+        <a href="faq.html">6. FAQ</a>
+        <a href="formulaire1.html">7. Créer votre univers</a>
+        <a href="mentionsLegales.html">8. Mentions légales</a>
+    </div>
+    <div class="logo">
+        <a href="welcome.html">
+            <img alt="Logo Esthévolution" src="images/logo.png" title="Logo Esthévolution">
+        </a>
+    </div>
+</nav>
+<!-- 🦋 HERO -->
+<section class="hero">
+    <div class="overlay">
+        <h2 class="Slogan">Expert Landing Page Pour Esthéticiennes</h2>
+        <p class="fadeInDelay1">
+            <span class="bottomText1">Augmentez vos rendez-vous</span>
+            <span class="bottomText2">Ciblez votre clientèle idéale</span>
+            <span class="bottomText3">Concentrez-vous sur vos soins</span>
+        </p>
+        <div class="satisfaction">
+            <a autofocus class="cta2" href="#portfolio">Nos réalisations</a>
+
+            <div class="stars">
+                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                <p class="avis">Satisfaction client 100%</p>
+            </div>
+        </div>
+    </div>
+    <div aria-hidden="true" class="imagePlaceholder"></div>
+</section>
+<!-- 🧩 OVERVIEW / PROCESSUS -->
+<main class="overview">
+    <div class="card">
+        <div class="icon">💡</div>
+        <h3>Pourquoi avoir une landing page ?</h3>
+        <p><em class="highlight">Attirez plus de clientes</em> sans passer des heures sur les réseaux.<br> Une <em
+                class="highlight">page claire</em> et bien pensée <em class="highlight">transforme vos visites en
+            rendez-vous réels.</em></p>
+        <a class="cta" href="pourquoiLp.html">Découvrir pourquoi</a>
+    </div>
+    <div class="arrow">⬇️</div>
+    <div class="card">
+        <div class="icon">🌸</div>
+        <h3>Pourquoi Esthevolution</h3>
+        <p>Nous <em class="highlight">accompagnons</em> exclusivement <em class="highlight">les esthéticiennes à
+            Genève.</em> Notre mission ?
+            :<br> Faire <em class="highlight">briller votre image</em> et développer votre clientèle <em
+                    class="highlight">avec élégance.</em></p>
+        <a class="cta" href="EstheticiansNeed.html">Découvrir Esthevolution</a>
+    </div>
+    <div class="arrow">⬇️</div>
+    <div class="card">
+        <div class="icon">⚙️</div>
+        <h3>Notre Processus</h3>
+        <p>De la conception à la mise en ligne, chaque étape est faite pour refléter votre savoir-faire et <em
+                class="highlight">créer un site qui travaille pour vous 24h/24.</em></p>
+        <a class="cta" href="processus.html">Comprendre le processus</a>
+    </div>
+    <div class="arrow">⬇️</div>
+    <div class="card">
+        <div class="icon">💬</div>
+        <h3>FAQ & Tarifs</h3>
+        <p>Des <em class="highlight">réponses claires à vos questions</em> et une <em class="highlight">offre adaptée à
+            vos besoins</em>, sans surprise ni engagement caché.</p>
+        <a class="cta" href="faq.html">FAQ </a>
+        <a class="cta" href="Tarifs.html">Voir nos tarifs</a>
+    </div>
+</main>
+<!-- PORTFOLIO -->
+<section class="portfolio" id="portfolio">
+    <h2 class="portfolioH2">Portfolio</h2>
+    <p class="portfolioText">Découvrez une sélection de réalisations récentes. Cliquez sur une image pour l’ouvrir en
+        grand.</p>
+    <div class="portfolioGrid">
+        <a href="#img1"><img alt="Projet 1" src="images/portfolio1.png" title="Portfolio 1"></a>
+        <a href="#img2"><img alt="Projet 2" src="images/portfolio2.png" title="Portfolio 2"></a>
+        <a href="#img3"><img alt="Projet 3" src="images/portfolio3.png" title="Portfolio 3"></a>
+    </div>
+    <!-- MODALES IMAGES -->
+    <div class="modal" id="img1">
+        <a class="close" href="#portfolio">&times;</a>
+        <img alt="Projet 1" src="images/portfolio1.png" title="Portfolio 1">
+    </div>
+
+    <div class="modal" id="img2">
+        <a class="close" href="#portfolio">&times;</a>
+        <img alt="Projet 2" src="images/portfolio2.png" title="Portfolio 2">
+    </div>
+
+    <div class="modal" id="img3">
+        <a class="close" href="#portfolio">&times;</a>
+        <img alt="Projet 3" src="images/portfolio3.png" title="Portfolio 3">
+    </div>
+</section>
+<div class="separator"></div>
+<!-- SECTION BESOINS + FOOTER -->
+<section>
+    <footer class="footer">
+        <div class="footerContainer">
+            <!-- Colonne gauche -->
+            <div class="footerAbout">
+                <h3>À propos d'Esthévolution</h3>
+                <p>Esthévolution crée des landing pages élégantes et automatisées pour les esthéticiennes à Genève, afin
+                    de booster vos réservations et offrir une expérience fluide à vos clientes.</p>
+            </div>
+            <!-- Colonne milieu -->
+            <div class="footerLinks">
+                <h3>Liens</h3>
+                <ul>
+                    <li><a href="welcome.html">Accueil </a></li>
+                    <li><a href="pourquoiLp.html">Pourquoi avoir une landing page ?</a></li>
+                    <li><a href="EstheticiansNeed.html">Pourquoi nous ?</a></li>
+                    <li><a href="processus.html">Processus</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="Tarifs.html">Tarifs</a></li>
+                    <li><a href="mentionsLegales.html">Mentions légales</a></li>
+                </ul>
+            </div>
+            <!-- Colonne droite -->
+            <div class="footerSocials">
+                <a href="https://www.facebook.com/profile.php?id=61584906356237" target="_blank">
+                    <img alt="Logo Facebook" src="images/facebook.png" title="Logo Facebook">
+                </a>
+                <a href="https://www.instagram.com/esth.evolution/" target="_blank">
+                    <img alt="Logo Instagram" src="images/instagram.png" title="Logo Instagram">
+                </a>
+            </div>
+        </div>
+        <!-- Copyright -->
+        <div class="footerCopy">
+            &copy; Esthévolution @ Tous droits réservés 2025
+        </div>
+    </footer>
+</section>
+</body>
+</html>
+
+
